@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size: 75px;
+	text-align: center;
+	margin-top: 250px;
+}
+
+h3{
+	font-size: 75px;
+	text-align: center;
+	margin-top: 250px;
+}
+
+.button{
+	font-size: 50px;
+	position: absolute;
+	top: 6px;
+	right: 50px;
+	z-index: 999;
+}
+
+.button a{
+	text-decoration:none;
+}
+
+.btn-open:after{
+	font-family: "FontAwesome";
+	content: "\f0c9";
+	color: black;
+	transition: color .2s;
+
+}
+
+.btn-open:hover:after{
+	color: blue;
+}
+
+
+.btn-close:after{
+	font-family: "FontAwesome";
+	content: "\f00d";
+	color: black;
+	transition: color .2s;
+
+}
+
+.btn-close:hover:after{
+	color: blue;
+}
+
+.overly{
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #abadb0;
+}
